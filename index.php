@@ -8,6 +8,6 @@
 <body>
     <h1>INTRODUCCION A JS</h1>
 
-    <script src="./script.js"></script>
+    <script src="./introducccion_script.js"></script>
 </body>
 </html>
