@@ -194,6 +194,15 @@ console.log(preIncremento);
 //alert(preIncremento)
 
 
+//Orden de operaciones, en js coloca las operaciones en el orden correspondiente
+const resultadoOperaciones = 2 + 3 * 4 - (5 + 1) / 2;
+console.log(resultadoOperaciones);
+
+const resultadoOperaciones1 = 10 - 2 * 3 ** 2 + (4 + 2) / 2;
+console.log(resultadoOperaciones1); 
+
+
+
 
 //Objetos
 
