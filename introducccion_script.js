@@ -56,3 +56,41 @@ let variableNula = null
 console.log(variableNula)
 
 
+
+
+//NUMEROS
+
+let numeroEntero = 10
+
+let numeroDecimal = 5.30
+
+
+//Operaciones algebraicas 
+//suma
+let suma = 5 + 3
+console.log(suma)
+
+//resta
+let resta = 10 - 4
+console.log(resta)
+
+//multiplicacion
+let multiplicacion = 2 * 6
+console.log(multiplicacion)
+
+
+//division
+let division = 20 / 5
+console.log(division)
+
+//residuo
+let residuo = 15 % 4;
+console.log(residuo); 
+
+
+
+
+
+
+
+
