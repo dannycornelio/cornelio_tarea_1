@@ -13,8 +13,24 @@ console.log(y);
 let bool1 = 10;
 let bool2 = 5;
 
+//Valores true y false
 console.log(bool1 <= bool2);
 console.log(bool1 >= bool2);
+
+//Uso de operaciones logicas
+
+// Operador AND (&&)
+let resultadoAND = bool1 && bool2;
+console.log(resultadoAND);
+
+// Operador OR (||)
+let resultadoOR = bool1 || bool2;
+console.log(resultadoOR);
+
+// Operador NOT (!)
+let resultadoNOT = !bool1;
+console.log(resultadoNOT); 
+
 
 
 //numerico
