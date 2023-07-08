@@ -25,10 +25,17 @@ let numero = 10
 console.log(numero)
 
 
-//cadena de texto con ejemplos de sus metodos
+//cadena de texto con ejemplos de sus metodos"Sintaxis básica"
+let texto = "Buenos dias "
 let nombre = "Danny" 
+
+
 //alert("Hola, me llamo "+nombre+"!");
 console.log("Hola, me llamo "+nombre+"!")
+
+//concatenacion
+let concatenacion = texto + nombre
+console.log(concatenacion)
 
 //metodo length
 let logNombre = nombre.length
