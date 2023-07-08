@@ -78,7 +78,6 @@ console.log(resta)
 let multiplicacion = 2 * 6
 console.log(multiplicacion)
 
-
 //division
 let division = 20 / 5
 console.log(division)
@@ -88,8 +87,16 @@ let residuo = 15 % 4;
 console.log(residuo); 
 
 
+//NaN (NOT A NUMBER)
+
+let resultado = 0 / 0
+console.log(resultado)
+
+let invalido = NaN + 5
+console.log("El valor de la operación es: " +invalido )
 
 
+//
 
 
 
