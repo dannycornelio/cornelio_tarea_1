@@ -185,13 +185,50 @@ console.log(maximo2);
 let numeroL = 10;
 let porsIncremento = numeroL++; 
 console.log(porsIncremento); 
-alert(porsIncremento)
+//alert(porsIncremento)
 
 // preIncremento
 let numeroM = 10;
 let preIncremento = ++numeroM; 
 console.log(preIncremento); 
-alert(preIncremento)
+//alert(preIncremento)
+
+
+
+//Objetos
+
+let Animal = {
+    nombre: 'León',
+    especie: 'Felino',
+    peso: 190,
+    edad: 5,
+    altura: 1.2,
+    emitirSonido: function() {
+        console.log("Roar");
+    }
+};
+
+//metodo Freeze
+// Aplicando el método freeze al objeto Animal
+//Object.freeze(Animal); 
+//No se realizara ninguna modificacion al nombre del objeto
+//Animal.nombre = 'Tigre'; 
+
+
+//metodo seal
+// se pueden modificar, pero no agregar o eliminar
+//Object.seal(Animal); 
+//delete Animal.peso; 
+//Animal.nombre = 'Tigre';
+
+
+
+console.log(Animal);
+
+
+
+
+
 
 
 
