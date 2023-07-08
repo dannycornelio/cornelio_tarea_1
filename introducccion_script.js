@@ -240,6 +240,14 @@ let Animal = {
     }
 };
 
+//SINTAXIS DE PUNTO
+//console.log(Animal.nombre);
+
+
+//Delete para borrar propiedad
+//delete Animal['altura'];
+
+
 //metodo Freeze
 // Aplicando el método freeze al objeto Animal
 //Object.freeze(Animal); 
