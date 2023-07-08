@@ -25,10 +25,27 @@ let numero = 10
 console.log(numero)
 
 
-//cadena de texto 
+//cadena de texto con ejemplos de sus metodos
 let nombre = "Danny" 
 //alert("Hola, me llamo "+nombre+"!");
 console.log("Hola, me llamo "+nombre+"!")
+
+//metodo length
+let logNombre = nombre.length
+// alert(`El tamaño del string es: ${logNombre}`)
+console.log(`El tamaño del la cadena de texto es: ${logNombre}`)
+
+//metodo IndexOf
+let posicion1 = nombre.indexOf('n')
+let posicion = nombre.indexOf('o')
+console.log(`${posicion1} posicion`)    
+console.log(`${posicion} posicion`)    
+
+//Includes
+let existe = nombre.includes('a')
+let existe2 = nombre.includes('r')
+console.log(existe)
+console.log(existe2)
 
 
 //Null
