@@ -179,7 +179,19 @@ console.log(maximo2);
 
 
 
+//INCREMENTO
 
+//posIncremento
+let numeroL = 10;
+let porsIncremento = numeroL++; 
+console.log(porsIncremento); 
+alert(porsIncremento)
+
+// preIncremento
+let numeroM = 10;
+let preIncremento = ++numeroM; 
+console.log(preIncremento); 
+alert(preIncremento)
 
 
 
