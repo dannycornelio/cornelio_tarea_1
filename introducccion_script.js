@@ -256,12 +256,6 @@ console.log(animales);
 //console.log(elementoEliminado)
 
 
-
-
-
-
-
-
 //Length, al igual que en la cadena de texto en eun array cuenta los elementos de un array
 const longitud = animales.length;
 console.log(`La cantidad de Animales es ${longitud}`);
@@ -273,14 +267,5 @@ const mascotas = ['perro', 'gato', 'conejo', 'pájaro'];
 for (let i = 0; i < mascotas.length; i++) {
   console.log(mascotas[i]);
 }
-
-
-
-
-
-
-
-
-
 
 
