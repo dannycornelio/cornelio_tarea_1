@@ -96,7 +96,93 @@ let invalido = NaN + 5
 console.log("El valor de la operación es: " +invalido )
 
 
-//
+//MATH
+//random
+let aleatorio1 = Math.random();
+console.log(aleatorio1);
+
+let aleatorio2 = Math.random();
+console.log(aleatorio2);
+
+
+//PI
+let piEj = Math.PI;
+console.log(piEj);
+
+// dound
+let numeroX = 3.7;
+let redondeado1 = Math.round(numeroX);
+console.log(redondeado1);
+
+let numeroY = 8.2;
+let redondeado2 = Math.round(numeroY);
+console.log(redondeado2);
+
+
+// Ceil este lo redonde al numero entero siguiente
+let numeroC = 3.1;
+let siguienteEnteroX = Math.ceil(numeroC);
+console.log(siguienteEnteroX);
+
+let numeroD = -2.5;
+let siguienteEnteroY = Math.ceil(numeroD);
+console.log(siguienteEnteroY);
+
+
+// Floor este lo redondea al numero entero anterior
+let numeroF = 5.9;
+let enteroAnterior1 = Math.floor(numeroF);
+console.log(enteroAnterior1);
+
+let numeroG = -7.3;
+let enteroAnterior2 = Math.floor(numeroG);
+console.log(enteroAnterior2);
+
+
+// SQRT(raiz cuadrada)
+let numeroH = 25;
+let raizCuadrada1 = Math.sqrt(numeroH);
+console.log(raizCuadrada1);
+
+let numeroI = 9;
+let raizCuadrada2 = Math.sqrt(numeroI);
+console.log(raizCuadrada2);
+
+
+
+// Valor absoluto
+let numeroJ = -10;
+let valorAbsoluto1 = Math.abs(numeroJ);
+console.log(valorAbsoluto1);
+
+
+let numeroK = 7;
+let valorAbsoluto2 = Math.abs(numeroK);
+console.log(valorAbsoluto2);
+
+
+// Min, este selecional el elemento de menor valor
+let minimo = Math.min(4, 8, 2);
+console.log(minimo);
+
+let minimo2 = Math.min(-5, 0, -3);
+console.log(minimo2);
+
+
+//Max, este selecciona el numero de mayo valor
+
+let maximo1 = Math.max(9, 3, 6);
+console.log(maximo1);
+
+let maximo2 = Math.max(0, -2, 5);
+console.log(maximo2);
+
+
+
+
+
+
+
 
 
 
