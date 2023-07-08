@@ -229,6 +229,54 @@ console.log(Animal);
 
 
 
+//Arreglos
+
+const animales = ['león', 'tigre', 'elefante', 'jirafa'];
+
+///metodos utiles en los arreglos
+//push, para agregar un elemento al final
+//animales.push('cocodrilo');
+
+//Unshift, para agregar un elemento al inicio
+//animales.unshift('cocodrilo');
+
+//pop para eliminar el ultimo elemento
+//const ultimoAnimal = animales.pop();
+
+//shift con este eliminas el primer elemento
+//const primerAnimal = animales.shift();
+
+//splice se puede utilizar para corta el arreglo en un rango de índices establecido
+//const elementoEliminado = animales.splice(2, 1); 
+
+
+console.log(animales);
+//console.log(ultimoAnimal)
+//console.log(primerAnimal);
+//console.log(elementoEliminado)
+
+
+
+
+
+
+
+
+//Length, al igual que en la cadena de texto en eun array cuenta los elementos de un array
+const longitud = animales.length;
+console.log(`La cantidad de Animales es ${longitud}`);
+
+
+//ciclo for para recorrer el arreglo de mascotas
+const mascotas = ['perro', 'gato', 'conejo', 'pájaro'];
+
+for (let i = 0; i < mascotas.length; i++) {
+  console.log(mascotas[i]);
+}
+
+
+
+
 
 
 
